@@ -5,7 +5,7 @@
 - Create database and modify .env with your DB name.
 - `php artisan migrate `
 - `php artisan key:generate `
-- `php artisan jwt:secret
+- `php artisan jwt:secret `
 - `php artisan serve `
 <br/>
 <br/><br/>
