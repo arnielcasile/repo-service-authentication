@@ -1,0 +1,17 @@
+***================= Documentation for Laravel Tutorial ================***
+
+https://www.w3adda.com/blog/laravel-jwt-authentication-api-laravel-5-8-create-rest-api-jwt-authentication
+
+
+***================== ShortCut Packages ===================***
+****Repository Package
+composer require jason-guru/laravel-make-repository --dev
+
+**** Trait Package
+composer require mtownsend/laravel-make-trait
+
+*** Services Package
+composer require getsolaris/laravel-make-service
+
+*** Laravel UI Login install for Authentication
+composer require laravel/ui 
