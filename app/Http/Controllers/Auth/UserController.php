@@ -17,7 +17,7 @@ class UserController extends Controller
 
     public function __construct(UserService $userService)
     {
-        // $this->middleware('auth:api');
+        $this->middleware('auth:api',['except' => 'register']);
         $this->userService = $userService;
     }
 
@@ -67,7 +67,7 @@ class UserController extends Controller
     //     //
     // }
 
-    public function getAuthUser()
+    public function profile()
     {
         $authUser = $this->guard()->user()->emp_id;
         $result = $this->successResponse("Load current user", 200);

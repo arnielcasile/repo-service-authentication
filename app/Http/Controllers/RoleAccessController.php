@@ -15,7 +15,7 @@ class RoleAccessController extends Controller
 
     public function __construct(RoleAccessService $roleAccessService)
     {
-        // $this->middleware('auth:api');
+        $this->middleware('auth:api');
         $this->roleAccessService = $roleAccessService;
     }
    

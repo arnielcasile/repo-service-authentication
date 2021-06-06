@@ -15,7 +15,7 @@ class SystemAccessController extends Controller
 
     public function __construct(SystemAccessService $systemAccessService)
     {
-        // $this->middleware('auth:api');
+        $this->middleware('auth:api');
         $this->systemAccessService = $systemAccessService;
     }
   

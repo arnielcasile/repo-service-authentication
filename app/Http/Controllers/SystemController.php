@@ -15,7 +15,7 @@ class SystemController extends Controller
 
     public function __construct(SystemService $systemService)
     {
-        // $this->middleware('auth:api');
+        $this->middleware('auth:api');
         $this->systemService = $systemService;
     }
    
